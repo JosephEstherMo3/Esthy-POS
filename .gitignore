@@ -1,0 +1,19 @@
+# dependencies
+node_modules
+
+# next.js
+.next
+out
+next-env.d.ts
+
+# secrets — never commit
+.env
+.env.*
+!.env.example
+
+# logs / misc
+*.log
+.DS_Store
+*.tsbuildinfo
+coverage
+.neon
