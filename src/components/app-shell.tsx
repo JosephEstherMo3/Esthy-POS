@@ -69,6 +69,13 @@ function SideNav({ items, onNavigate }: { items: NavItem[]; onNavigate?: () => v
       })}
     </nav>
   );
+
+
+
+
+
+
+
 }
 
 function SidebarBody({ items, onNavigate }: { items: NavItem[]; onNavigate?: () => void }) {
